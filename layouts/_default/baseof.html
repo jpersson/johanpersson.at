@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+  <section id="main-content" {{ if eq .File.Dir "about/" }} class="bio" {{ end }}>
+	{{ block "main" . }}{{ end }}
+  </section>
+  {{ partial "footer.html" . }}
+</body>
+</html>

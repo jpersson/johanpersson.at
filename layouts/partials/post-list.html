@@ -1,0 +1,24 @@
+<ul id="post-list">
+{{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+{{ range $paginator.Pages  }}
+
+  <li>
+    <article class="post">
+      <header class="post-header">
+          <a href="{{ .Permalink }}" class="u-url">
+              <time datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}" class="post-date">
+               {{ .Date.Format "2006, JANUARY 2" }}
+              </time>
+          </a>
+         {{ if .Title }}
+         <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+         {{ end }}
+      </header>
+      <section class="post-body">
+        {{ .Content }}
+      </section>
+    </article>
+  </li>
+  <span class="separator"><span class="divider"></span></span>
+{{ end }}
+</ul>

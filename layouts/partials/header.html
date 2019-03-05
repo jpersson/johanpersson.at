@@ -1,0 +1,9 @@
+<header id="site-header">
+    {{ partial "navigation.html" . }}
+    {{ if .IsHome }}
+    <section class="site-title">
+        <h1>{{ .Site.Params.greeting }}</h1>
+        <p class="site-title__description">{{ .Site.Params.description | safeHTML }}</p>
+    </section>
+    {{ end }}
+</header>
