@@ -8,8 +8,14 @@
 }
 
 body {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'PT Serif', serif;
+}
+
+@media (min-width: 820px) {
+  body {
+    font-size: 24px;
+  }
 }
 
 nav ul {
