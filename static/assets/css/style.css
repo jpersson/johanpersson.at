@@ -32,11 +32,17 @@ h1 {
 }
 
 #site-header {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 820px) {
+  #site-header {
+    margin-bottom: 5em;
+  }
 }
 
 #main-content {
-
+  margin: 1em;
 }
 
 #site-footer {
@@ -47,6 +53,8 @@ h1 {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .site-title h1 {
@@ -71,13 +79,27 @@ h1 {
   justify-content: space-between;
 
   flex-wrap: nowrap;
-  padding: 1em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 820px) {
+  .main-navigation {
+    padding: 1em;
+  }
 }
 
 .main-navigation__icon {
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
+  display: none;
+}
+
+@media (min-width: 820px) {
+  .main-navigation__icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
 }
 
 .main-navigation__group {
@@ -116,6 +138,11 @@ h1 {
   padding: 0;
 }
 
+#post-list li {
+	list-style: none;
+}
+
+
 .post {
   margin-top: 3em;
   margin-left: auto;
@@ -138,13 +165,25 @@ h1 {
 }
 
 .post-date {
-  font-size: 100%;
+  font-size: 80%;
   font-family: 'Montserrat script=all rev=1', sans-serif;
   font-weight: 100;
 }
 
+@media (min-width: 820px) {
+  .post-date {
+    font-size: 100%;
+  }
+}
+
 .post-title {
-  font-size: 250%;
+  font-size: 150%;
+}
+
+@media (min-width: 820px) {
+  .post-title {
+    font-size: 250%;
+  }
 }
 
 .post-title a {
@@ -173,10 +212,17 @@ h1 {
 
 .post img {
   display: block;
-  width: 80%;
-  margin: 2em;
+  width: 95%;
+  margin: 1em;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 820px) {
+  .post img {
+    width: 80%;
+    margin: 2em;
+  }
 }
 
 .tags li {
