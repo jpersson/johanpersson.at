@@ -17,8 +17,7 @@ footer {
   color: var(--secondary-text-color);
   text-align: center;
   background-color: var(--secondary-background-color);
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em;
 }
 
 @media (min-width: 820px) {
