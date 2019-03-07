@@ -5,11 +5,20 @@
   --primary-text-color: #666;
   --secondary-text-color: #aaa;
   --background-color: #fafafa;
+  --secondary-background-color: #E8EEEE;
 }
 
 body {
   font-size: 20px;
   font-family: 'PT Serif', serif;
+}
+
+footer {
+  color: var(--secondary-text-color);
+  text-align: center;
+  background-color: var(--secondary-background-color);
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 @media (min-width: 820px) {
