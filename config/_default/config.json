@@ -1,5 +1,6 @@
 {
 	"baseURL": "https://johanpersson.at/",
+	"title": "Johan Persson",
 	"languageCode": "en-us",
 	"outputFormats": {
 		"RSS": {
