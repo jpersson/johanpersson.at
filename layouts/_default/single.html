@@ -1,7 +1,14 @@
 {{ define "main" }}
 <article class="post">
   <header class="post-header">
-    <h1>{{ .Title }}</h1>
+      <a href="{{ .Permalink }}" class="u-url">
+          <time datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}" class="post-date">
+            {{ .Date.Format "2006, January 2" }}
+          </time>
+      </a>
+      {{ if .Title }}
+      <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ end }}
   </header>
   <section class="post-body">
       {{ .Content }}
