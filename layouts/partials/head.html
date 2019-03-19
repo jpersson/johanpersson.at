@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="{{ .Site.Params.AuthorName }}" name="author">
   {{ with .Site.Params.twitter }}
-	<link rel="me" href="https://twitter.com/{{ . }}" />
-	{{ end }}
-	{{ with .Site.Params.github }}
-	<link rel="me" href="https://github.com/{{ . }}" />
-	{{ end }}
+  <link rel="me" href="https://twitter.com/{{ . }}" />
+  {{ end }}
+  {{ with .Site.Params.github }}
+  <link rel="me" href="https://github.com/{{ . }}" />
+  {{ end }}
   <title>
       {{ block "title" . }}
       {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}

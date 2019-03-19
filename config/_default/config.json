@@ -1,0 +1,52 @@
+{
+	"baseURL": "https://johanpersson.at/",
+	"languageCode": "en-us",
+	"outputFormats": {
+		"RSS": {
+			"baseName": "feed"
+		},
+		"JSON": {
+			"baseName": "feed"
+		},
+		"RSD": {
+			"mediaType": "application/xml",
+			"baseName": "rsd",
+			"isPlainText": true,
+			"notAlternative": true
+		},
+		"ArchiveHTML": {
+			"mediaType": "text/html",
+			"path": "archive",
+			"baseName": "index",
+			"isPlainText": false,
+			"notAlternative": true
+		},
+		"ArchiveJSON": {
+			"mediaType": "application/json",
+			"path": "archive",
+			"baseName": "index",
+			"isPlainText": true,
+			"notAlternative": true
+		},
+		"PhotosJSON": {
+			"mediaType": "application/json",
+			"path": "photos",
+			"baseName": "index",
+			"isPlainText": true,
+			"notAlternative": true
+		}
+	},
+	"outputs": {
+		"home": [ "HTML", "RSS", "JSON", "ArchiveHTML", "ArchiveJSON", "PhotosJSON" ],
+		"section": [ "HTML" ]
+	},
+	"taxonomies": {
+		"category": "categories"
+	},
+	"rssLimit": 25,
+	"uglyURLs": false,
+	"blackfriday": {
+		"fractions": false
+	}
+}
+
