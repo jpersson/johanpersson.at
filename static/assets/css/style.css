@@ -1,7 +1,7 @@
 :root {
   --primary-color: #51dcff;
   --secondary-color: #a3f8cf;
-  --highlight-color: #fe6f9b;
+  --highlight-color: #FFFF80;
   --primary-text-color: #666;
   --secondary-text-color: #aaa;
   --background-color: #fafafa;
@@ -246,11 +246,11 @@ h1 {
 	clear: both;
 	text-align: right;
 	display: inline-block;
-  color: var(--primary-color);
-	background-color: var(--secondary-color);
+    color: black;
+    background-image: linear-gradient(90deg,var(--highlight-color),var(--highlight-color));
+    background-repeat: no-repeat;
+    background-position: left -5px bottom -10px;
 	list-style: none;
 	padding: 0.4em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-  margin: 0.15em;
+    margin: 0.15em;
 }
