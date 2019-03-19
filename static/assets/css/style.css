@@ -31,14 +31,15 @@ nav ul {
 }
 
 a {
-  color: var(--primary-color);
+  color: black;
+  background-image: linear-gradient(45deg,var(--secondary-color),var(--secondary-color));
+  background-repeat: no-repeat;
+  background-position: left 5px bottom -20px;
   text-decoration: none;
-  transition: 0.3s;
 }
 
 a:hover {
-  color: var(--highlight-color);
-  text-decoration: underline;
+  background-position: left 5px bottom -10px;
 }
 
 h1 {
@@ -57,9 +58,6 @@ h1 {
 
 #main-content {
   margin: 1em;
-}
-
-#site-footer {
 }
 
 .site-title {
@@ -104,7 +102,11 @@ h1 {
 }
 
 .main-navigation__icon {
-  display: none;
+  background-image: none;
+}
+
+main-navigation__home {
+  text-decoration: none;
 }
 
 @media (min-width: 820px) {
@@ -131,14 +133,6 @@ h1 {
   text-transform: uppercase;
   font-family: 'Montserrat script=all rev=1', sans-serif;
   font-weight: 900;
-}
-
-.main-navigation__list .menu-item a {
-  color: black;
-}
-
-.main-navigation__list .menu-item a:hover {
-  color: var(--highlight-color);
 }
 
 .main-navigation__list .menu-item:after {
