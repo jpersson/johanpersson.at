@@ -13,6 +13,12 @@ body {
   font-family: 'PT Serif', serif;
 }
 
+@media (min-width: 820px) {
+  body {
+    font-size: 24px;
+  }
+}
+
 footer {
   color: var(--secondary-text-color);
   text-align: center;
@@ -21,11 +27,6 @@ footer {
   font-size: 70%;
 }
 
-@media (min-width: 820px) {
-  body {
-    font-size: 24px;
-  }
-}
 
 nav ul {
   list-style: none;
@@ -194,7 +195,7 @@ h1 {
 
 @media (min-width: 820px) {
   .post-title {
-    font-size: 250%;
+    font-size: 200%;
   }
 }
 
