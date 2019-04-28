@@ -1,3 +1,5 @@
-{{ $original := .Page.Resources.GetMatch "images/*" }}
-{{ $new := $original.Fit "800x800" }}
-<a href="{{ $original.Permalink }}"><img src="{{ $new.Permalink }}"></a>
+{{ $images := .Page.Resources.Match "images/*" }}
+{{ range $images }}
+  {{ $new := .Fit "800x800" }}
+  <a href="{{ .Permalink }}"><img src="{{ $new.Permalink }}"></a>
+{{ end }}
