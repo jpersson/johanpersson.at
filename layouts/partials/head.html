@@ -17,9 +17,6 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
   <link href="{{ "assets/css/reset.css" | relURL }}" rel="stylesheet">
   <link href="{{ "assets/css/style.css" | relURL }}" rel="stylesheet">
-  {{ if .Site.Params.stats }}
-  <script src="https://s.johanpersson.at/site-stats.js"></script>
-  {{ end }}
   {{ if .RSSLink -}}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ "feed.json" | absURL }}" />
