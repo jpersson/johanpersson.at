@@ -38,6 +38,7 @@ a {
   background-repeat: no-repeat;
   background-position: left 5px bottom -20px;
   text-decoration: none;
+  transition: background-position 100ms ease-in-out;
 }
 
 a:hover {
