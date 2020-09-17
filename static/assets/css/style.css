@@ -27,7 +27,6 @@ footer {
   font-size: 70%;
 }
 
-
 nav ul {
   list-style: none;
 }
@@ -211,16 +210,21 @@ h1 {
   background-image: linear-gradient(45deg,var(--primary-color),var(--primary-color));
 }
 
-.post-body ul {
+.post-body ul,ol {
   margin-bottom: 1em;
 }
+
+.post-body ul,ol li {
+  margin-bottom: 1em;
+}
+
 
 .post-body p {
   margin-bottom: 1em;
   font-weight: lighter;
 }
 
-.post-body h2,h3 {
+.post-body h2,h3,h4 {
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -234,6 +238,10 @@ h1 {
   font-weight: bold;
 }
 
+.post-body h4 {
+  font-size: 80%;
+}
+
 .post img {
   display: block;
   width: 95%;
@@ -241,6 +249,13 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.post-image figcaption {
+  text-align: center;
+  font-size: 70%;
+  opacity: 0.4;
+}
+
 
 @media (min-width: 820px) {
   .post img {
