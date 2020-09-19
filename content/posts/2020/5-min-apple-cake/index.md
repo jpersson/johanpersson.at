@@ -1,5 +1,5 @@
 ---
-date: 2020-09-12T23:30:48+02:00
+date: 2020-09-19T23:30:48+02:00
 categories: ["vegan","recipe"]
 title: "5 min Apple Cake"
 ---
