@@ -10,11 +10,11 @@ Been doing this dead simple apple cake quite often lately based on [one from San
 
 ## Ingredients
 
-* 3 DL Flour
-* 1.5 DL Sugar
-* 0.5 DL Oil (Something neutral like Rapeseed)
+* 3 dl Flour
+* 1.5 dl Sugar
+* 0.5 dl Oil (Something neutral like Rapeseed)
 * Pinch of salt
-* 2.5 Tsp Baking powder
+* 2.5 tsp Baking powder
 * 2 Apples
 * Cinnamon
 
