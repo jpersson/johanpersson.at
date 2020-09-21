@@ -4,7 +4,7 @@ categories: ["life","kids","kigru","food","vegan"]
 title: "Cooking for kids"
 ---
 
-About a week ago our oldest started pre-school, a really nice and friendly place called [Amerling Kindergruppe Haus](http://www.kindergruppeamerlinghaus.at) located in the middle of Spittelberg in the 7th district of Vienna. There are a lot of things you can say about this pre-school but for this specific blog entry there are two things of interest.  
+About a week ago our oldest started pre-school, a really nice and friendly place called [Amerling Kindergruppe Haus](http://www.kindergruppeamerlinghaus.at) located in the middle of Spittelberg in the 7th district of Vienna. There are a lot of things you can say about this pre-school but for this specific blog entry there are two things of interest.
 
 1. It's parent-controlled ✌🏻
 2. It's nowhere near where we live 😓
@@ -15,7 +15,7 @@ I'm glad that we never sold off our old but little used [Thule Carrier]() which 
 
 {{< post-image pattern="images/route*" caption="From outskirts to the heart of the 7th" >}}
 
-I thought it could be an interesting series of posts to document the food and how it's received by the kids. 
+I thought it could be an interesting series of posts to document the food and how it's received by the kids.
 
 ## Round #1
 
@@ -35,11 +35,11 @@ I based the recipe on [one that I found](https://undertian.com/recept/piroger-me
 * 1 package yeast
 * 16 dl wheat flour
 
-Mix finger-warm water with the yeast, oil and salt. Add flour and make the dough and then let it rest for 45-60 min. 
+Mix finger-warm water with the yeast, oil and salt. Add flour and make the dough and then let it rest for 45-60 min.
 
 #### Filling
 
-I did a tomate based sauce with [Soja Granulate from Vegavita](https://vegavita.at/unsere-produkte/sojagranulat/) but any kind of minced meat replacement could be used. 
+I did a tomate based sauce with [Soja Granulate from Vegavita](https://vegavita.at/unsere-produkte/sojagranulat/) but any kind of minced meat replacement could be used.
 
 #### Putting it together
 
@@ -47,8 +47,10 @@ Once the dough is well rested divide it into 20-25 pieces and make them into sma
 
 * Prepare the sauce one day ahead to make sure it is not too watery when making the pirogi.
 * For kids it better with many small pigori than one big one.
-* Don't put too much filling due avoid leakage when baking. 
+* Don't put too much filling due avoid leakage when baking.
 
 ### Verdict
 
-I'll update once I hear back from the kids. 🤞🏻
+~~I'll update once I hear back from the kids. 🤞🏻~~
+
+Either they were very hungry or the really liked the Pirogi. They consumed every one! ✌🏻
