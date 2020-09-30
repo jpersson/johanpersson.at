@@ -18,6 +18,7 @@ Minas recipe can be found in the description of [her video](https://www.youtube.
 * 100g of smoked Tofu
 * 400g of firm tofu
 * 400g of silken tofu 
+* 2 cloves of garlic
 * 2 tbsp lemon juice
 * 3 tbsp white wine vinegar
 * 3 tbsp potato starch
