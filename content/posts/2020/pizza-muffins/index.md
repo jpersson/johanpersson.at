@@ -39,4 +39,6 @@ The only thing left now is to top each muffin with something you like on pizza. 
 
 ## Verdict
 
-I'll update once I hear back from the kids. 🤞🏻
+~~I'll update once I hear back from the kids. 🤞🏻~~
+
+Nils really liked the Muffins, at least the ones topped with smoked tofu since he's not a fan of pineapple. But some of the other kids heard muffins and expected something sweet and were then disappointed when it was not. 

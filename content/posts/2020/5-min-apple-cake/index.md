@@ -10,9 +10,10 @@ Been doing this dead simple apple cake quite often lately based on [one from San
 
 ## Ingredients
 
-* 3 dl Flour
-* 1.5 dl Sugar
-* 0.5 dl Oil (Something neutral like Rapeseed)
+* 3 dl flour
+* 1 dl sugar
+* 1.5 dl plantbased milk (oat, soja, whatever)
+* 0.5 dl oil (Something neutral like Rapeseed)
 * Pinch of salt
 * 2.5 tsp Baking powder
 * 2 Apples
@@ -21,7 +22,7 @@ Been doing this dead simple apple cake quite often lately based on [one from San
 ## Making it
 
 1. Set oven at 200C.
-2. Mix flour, sugar, oil, salt, cinnamon and baking powder
+2. Mix flour, sugar, oil, milk, salt, cinnamon and baking powder
 3. Pour into form prepared with oil and breadcrumbs on the bottom and sides.
 4. Put apple-slices into dough.
 5. Add some sugar and cinnamon on top.
