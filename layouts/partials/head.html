@@ -3,6 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="{{ .Site.Params.AuthorName }}" name="author">
+  {{ if .Site.Params.stats }}
+  <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+  {{ end }}
   {{ with .Site.Params.twitter }}
   <link rel="me" href="https://twitter.com/{{ . }}" />
   {{ end }}
