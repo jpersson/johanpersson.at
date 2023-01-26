@@ -12,6 +12,9 @@
   {{ with .Site.Params.github }}
   <link rel="me" href="https://github.com/{{ . }}" />
   {{ end }}
+  {{ with .Site.Params.mastodon }}
+   <link rel="me" href="{{ . }}" />
+  {{ end }}
   <title>
       {{ block "title" . }}
       {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}
